@@ -7,7 +7,7 @@ function Navbar() {
     <nav className="fixed top-0 left-0 z-50 w-full border-b border-white/10 bg-[#0a0a0f]/90 backdrop-blur-lg">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
         <a href="#home" className="text-2xl font-bold text-white">
-          Harshal<span className="text-violet-400">.</span>
+          Harshal Aher
         </a>
 
         {/* Desktop Navigation */}
