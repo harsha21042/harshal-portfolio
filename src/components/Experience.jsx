@@ -55,7 +55,7 @@ function Experience() {
   ];
 
   return (
-    <section id="experience" className="bg-[#0a0a0f] px-6 py-24 text-white">
+    <section id="experience" className="bg-[#0a0a0f] px-6 py-12 text-white">
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <p className="mb-3 text-sm font-medium tracking-[0.3em] text-violet-400 uppercase">
@@ -69,7 +69,7 @@ function Experience() {
           </h2>
         </Reveal>
 
-        <div className="relative mt-12 border-l border-white/10 pl-8 sm:pl-10">
+        <div className="relative mt-6 border-l border-white/10 pl-8 sm:pl-10">
           {experiences.map((exp) => (
             <Reveal key={exp.company} className="relative pb-10 last:pb-0">
               {/* timeline dot */}

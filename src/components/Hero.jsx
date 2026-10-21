@@ -10,7 +10,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen items-center overflow-hidden bg-[#0a0a0f] px-6 pt-28 pb-20 text-white"
+      className="relative flex min-h-screen items-center overflow-hidden bg-[#0a0a0f] px-6 pt-28 pb-10 text-white"
     >
       {/* background glow */}
       <div className="pointer-events-none absolute -top-32 -right-32 h-96 w-96 rounded-full bg-violet-600/20 blur-3xl" />

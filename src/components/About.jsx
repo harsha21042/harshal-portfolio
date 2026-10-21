@@ -27,7 +27,7 @@ function About() {
   ];
 
   return (
-    <section id="about" className="bg-[#0d0d14] px-6 py-24 text-white">
+    <section id="about" className="bg-[#0d0d14] px-6 py-12 text-white">
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <p className="mb-3 text-sm font-medium tracking-[0.3em] text-violet-400 uppercase">
