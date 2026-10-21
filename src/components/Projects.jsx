@@ -9,7 +9,7 @@ function ProjectVisual({ project }) {
         src={project.image}
         alt={`${project.title} screenshot`}
         loading="lazy"
-        className="absolute inset-0 h-full w-full object-cover object-top"
+        className="absolute inset-0 h-full w-full object-contain object-center"
       />
     );
   }
@@ -168,7 +168,7 @@ function Projects() {
         ],
         flow: ["Client", "GST API", "Node + Express", "MySQL"],
       },
-      link: "", // add only if DueDeck has a public website you are allowed to link
+      link: "", 
       github: "",
     },
     {
@@ -198,7 +198,7 @@ function Projects() {
         ],
         flow: ["User", "React UI", "REST API", "AI Export Assistant"],
       },
-      link: "", // add the live website URL here if it is public and allowed
+      link: "", 
       github: "",
     },
     {
@@ -215,7 +215,7 @@ function Projects() {
         "Organized chat logic with reusable components and custom hooks",
       ],
       technologies: ["React.js", "JavaScript", "Tailwind CSS", "Groq API", "Vercel"],
-      image: "/projects/react-ai-tool.png",
+      image: "/images/DevPulse-1.png",
       link: "https://react-ai-tool-using-groq-api.vercel.app/",
       github: "https://github.com/harsha21042/React-Ai-Tool-using-GroqAPI",
     },
@@ -227,14 +227,13 @@ function Projects() {
       description:
         "A full stack user management application for displaying user records and adding new users.",
       highlights: [
-        // Add what you actually built here, e.g. edit/delete, validation, search
         "Built a React frontend connected to an Express.js and Node.js REST API",
         "Stored and retrieved user records using MongoDB",
       ],
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
-      image: "", // add "/projects/mern-user-management.png" when you have a screenshot
+      image: "", 
       link: "",
-      github: "", // add your GitHub repo link here
+      github: "", 
     },
   ];
 

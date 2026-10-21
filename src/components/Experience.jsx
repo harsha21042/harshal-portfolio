@@ -39,7 +39,6 @@ function Experience() {
         "Developed client-side and server-side validation across 15+ forms, reducing invalid submissions and data-entry errors by 60%.",
         "Debugged validation and database issues in an Agile team of 8–9 using Git and Jira, reducing reported production bugs by 35%.",
       ],
-      // Verify: keep "Laravel" only if you really worked with it at Eligo
       tech: ["Node.js", "Express.js", "MySQL", "Laravel", "REST APIs", "Git", "Jira"],
     },
     {
