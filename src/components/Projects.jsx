@@ -150,6 +150,8 @@ function Projects() {
         "Worked in an Agile team of 8–9 using Git and Jira, reducing reported production bugs by 35%",
       ],
       technologies: [
+        "PHP",
+        "Laravel",
         "Node.js",
         "Express.js",
         "MySQL",
