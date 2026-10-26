@@ -1,11 +1,11 @@
 function Hero() {
   const stats = [
-    { value: "2.8+", label: "Years of experience" },
+    { value: "1.5", label: "Years of experience" },
     { value: "150+", label: "Clients served via GST automation" },
     { value: "40%", label: "Less manual data entry" },
   ];
 
-  const tech = ["React", "TypeScript", "Node.js", "Express", "MySQL", "Tailwind CSS"];
+  const tech = ["React", "TypeScript", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"];
 
   return (
     <section
@@ -48,8 +48,8 @@ function Hero() {
             className="anim-fade-up mt-6 max-w-xl text-base leading-8 text-gray-400 sm:text-lg"
             style={{ animationDelay: "300ms" }}
           >
-            Full Stack Developer from Pune with 2.8 years of experience in
-            React, TypeScript, Node.js, and MySQL. I build responsive
+            Full Stack Developer from Pune with 1.5 years of experience in
+            React.js, Node.js, Express.js, and MongoDB. I build responsive
             interfaces, REST APIs, and third-party integrations that make
             business workflows faster and more reliable.
           </p>
@@ -65,7 +65,7 @@ function Hero() {
               View My Work
             </a>
             <a
-              href="/resume/Harshal_Aher-resume(2.8_YOE).pdf"
+              href="/resume/Harshal_Aher-resume(1.5-YOE).pdf"
               download
               className="rounded-lg border border-violet-400/40 bg-violet-400/10 px-6 py-3 font-medium text-violet-200 transition-all duration-300 hover:-translate-y-1 hover:border-violet-400"
             >
@@ -120,13 +120,13 @@ function Hero() {
               </p>
               <p className="pl-6">
                 <span className="text-violet-300">experience</span>:{" "}
-                <span className="text-green-300">"2.8 years"</span>,
+                <span className="text-green-300">"1.5 years"</span>,
               </p>
               <p className="pl-6">
                 <span className="text-violet-300">stack</span>: [
               </p>
               <p className="pl-12 text-green-300">
-                "React", "TypeScript", "Node.js", "MySQL"
+                "React","Node.js","Express.js", "TypeScript","MongoDB"
               </p>
               <p className="pl-6">],</p>
               <p className="pl-6">

@@ -58,7 +58,7 @@ function Contact() {
               Email Me ↗
             </a>
             <a
-              href="/resume/Harshal_Aher-resume(2.8_YOE).pdf"
+              href="/resume/Harshal_Aher-resume(1.5-YOE).pdf"
               download
               className="rounded-lg border border-violet-400/40 bg-violet-400/10 px-6 py-3 font-medium text-violet-200 transition-all duration-300 hover:-translate-y-1 hover:border-violet-400"
             >

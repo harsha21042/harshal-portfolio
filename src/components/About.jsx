@@ -4,7 +4,7 @@ function About() {
   const facts = [
     { label: "Location", value: "Pune, Maharashtra, India" },
     { label: "Education", value: "B.E. Electronics & Telecommunication, SPPU (CGPA 8.41)" },
-    { label: "Focus", value: "React · TypeScript · Node.js · MySQL" },
+    { label: "Focus", value: "React · Node.js · Express.js · MongoDB" },
     { label: "Languages", value: "English, Marathi, Hindi, Japanese (learning)" },
   ];
 
@@ -17,7 +17,7 @@ function About() {
     {
       no: "02",
       title: "Backends that hold up",
-      text: "REST APIs, third-party integrations like GST services, and clean MySQL schemas with an average response under 300 ms.",
+      text: "REST API development, third-party integrations such as GST services, and MongoDB database design and management.",
     },
     {
       no: "03",
@@ -45,24 +45,13 @@ function About() {
           {/* LEFT: story */}
           <Reveal className="space-y-4 text-base leading-8 text-gray-400 sm:text-lg lg:col-span-3">
             <p>
-              I studied Electronics and Telecommunication engineering and
-              built my way into web development, starting with an AWS cloud
-              internship where I deployed and secured a web application on
-              EC2, S3, and IAM.
+              I studied Electronics and Telecommunication Engineering and transitioned into web development, building my skills in <span className="text-white">React.js, Node.js, Express.js, and MongoDB</span>. During my AWS cloud internship, I gained hands-on experience deploying and securing web applications using <span className="text-white">EC2, S3, and IAM</span>.
             </p>
             <p>
-              At <span className="text-white">Eligo Apptech</span>, I worked on
-              DueDeck, a practice management platform for accounting and tax
-              firms, building GST integrations, APIs, and validation that
-              saved teams real time. At{" "}
-              <span className="text-white">Pinaak Global Exporters</span>, I'm
-              building an export-import training platform with an AI-powered
-              assistant.
+              At <span className="text-white">Eligo Apptech</span>, I contributed to DueDeck, a practice management platform for accounting and tax firms, working on <span className="text-white">GST API integrations, backend development, and data validation</span>.
             </p>
             <p>
-              I care about the details users actually notice: fast responses,
-              clear validation, and interfaces that work on every screen. I'm
-              always learning, and these days that includes Japanese too.
+              With 1.5 years of software development experience, I focus on building reliable backend functionality, developing and integrating APIs, managing database interactions, and creating responsive user interfaces. I'm continuously strengthening my full-stack development skills and exploring new technologies to build scalable web applications.
             </p>
           </Reveal>
 

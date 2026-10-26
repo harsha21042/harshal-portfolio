@@ -2,25 +2,25 @@ import Reveal from "./Reveal";
 
 function Experience() {
   const experiences = [
-    {
-      role: "Software Developer",
-      company: "Pinaak Global Exporters",
-      period: "June 2025 – Present",
-      description:
-        "A web platform for export-import (EXIM) training and consultancy where users explore courses, register, submit enquiries, and get automated guidance from an AI-powered Export Assistant.",
-      metrics: [
-        { value: "50+", label: "users served" },
-        { value: "6", label: "modules delivered" },
-      ],
-      points: [
-        "Developed a responsive React.js and TypeScript application with Course, Registration, Enquiry, Testimonials, Resources, and Contact modules.",
-        "Integrated an AI-powered Export Assistant into the frontend, handling user input, API communication, and response rendering for EXIM guidance.",
-        "Built reusable, typed React components with Tailwind CSS that work across desktop, tablet, and mobile.",
-        "Implemented client-side validation for registration and enquiry flows, improving data accuracy and the user experience.",
-        "Integrated REST APIs while handling async data, loading states, and error scenarios.",
-      ],
-      tech: ["React.js", "TypeScript", "Tailwind CSS", "REST APIs"],
-    },
+    // {
+    //   role: "Software Developer",
+    //   company: "Pinaak Global Exporters",
+    //   period: "June 2025 – Present",
+    //   description:
+    //     "A web platform for export-import (EXIM) training and consultancy where users explore courses, register, submit enquiries, and get automated guidance from an AI-powered Export Assistant.",
+    //   metrics: [
+    //     { value: "50+", label: "users served" },
+    //     { value: "6", label: "modules delivered" },
+    //   ],
+    //   points: [
+    //     "Developed a responsive React.js and TypeScript application with Course, Registration, Enquiry, Testimonials, Resources, and Contact modules.",
+    //     "Integrated an AI-powered Export Assistant into the frontend, handling user input, API communication, and response rendering for EXIM guidance.",
+    //     "Built reusable, typed React components with Tailwind CSS that work across desktop, tablet, and mobile.",
+    //     "Implemented client-side validation for registration and enquiry flows, improving data accuracy and the user experience.",
+    //     "Integrated REST APIs while handling async data, loading states, and error scenarios.",
+    //   ],
+    //   tech: ["React.js", "TypeScript", "Tailwind CSS", "REST APIs"],
+    // },
     {
       role: "Software Developer",
       company: "Eligo Apptech Pvt. Ltd.",
@@ -35,11 +35,11 @@ function Experience() {
       ],
       points: [
         "Integrated third-party GST APIs with Node.js and Express.js to validate GSTINs and auto-fetch business details, cutting manual data entry by 40% for 150+ clients.",
-        "Built RESTful APIs and designed relational MySQL schemas with foreign keys and constraints for Task Management, GST, Reports, Client Management, and Testimonials modules.",
+        "Built RESTful APIs and designed MongoDB schemas for Task Management, GST, Reports, Client Management, and Testimonials modules, ensuring efficient data storage and retrieval.",
         "Developed client-side and server-side validation across 15+ forms, reducing invalid submissions and data-entry errors by 60%.",
         "Debugged validation and database issues in an Agile team of 8–9 using Git and Jira, reducing reported production bugs by 35%.",
       ],
-      tech: ["Node.js", "Express.js", "MySQL", "Laravel", "REST APIs", "Git", "Jira"],
+      tech: ["Node.js", "Express.js", "MongoDB", "Laravel", "REST APIs", "Git", "Jira"],
     },
     {
       role: "AWS Virtual Cloud Intern",
