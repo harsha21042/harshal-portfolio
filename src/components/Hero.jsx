@@ -127,6 +127,10 @@ function Hero() {
               </p>
               <p className="pl-6">],</p>
               <p className="pl-6">
+                <span className="text-violet-300">adaptability</span>:{" "}
+                <span className="text-green-300">"Open to learning and adapting to new technologies"</span>,
+              </p>
+              <p className="pl-6">
                 <span className="text-violet-300">learning</span>:{" "}
                 <span className="text-green-300">"Japanese"</span>,
               </p>
