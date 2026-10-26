@@ -144,10 +144,10 @@ function Projects() {
       description:
         "A practice management platform used by accounting and tax firms to manage clients, tasks, GST workflows, and reports.",
       highlights: [
-        "Integrated third-party GST APIs with Node.js and Express.js to validate GSTINs and auto-fetch business details, cutting manual data entry by 40% for 150+ clients",
-        "Built RESTful APIs and relational MySQL schemas with foreign keys and constraints, keeping average API response under 300 ms",
-        "Developed client-side and server-side validation across 15+ forms, reducing invalid submissions by 60%",
-        "Worked in an Agile team of 8–9 using Git and Jira, reducing reported production bugs by 35%",
+        "Integrated third-party GST APIs using Node.js and Express.js to validate GSTINs and retrieve business details.",
+        "Developed RESTful APIs and implemented MongoDB schemas for client management, task workflows, GST operations, and reporting.",
+        "Built and maintained frontend interfaces with data validation to improve data accuracy and user experience.",
+        "Contributed to both frontend and backend development, collaborating with an Agile team using Git and Jira for version control and project tracking.",
       ],
       technologies: [
         "PHP",

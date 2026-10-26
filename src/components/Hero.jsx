@@ -48,10 +48,7 @@ function Hero() {
             className="anim-fade-up mt-6 max-w-xl text-base leading-8 text-gray-400 sm:text-lg"
             style={{ animationDelay: "300ms" }}
           >
-            Full Stack Developer from Pune with 1.5 years of experience in
-            React.js, Node.js, Express.js, and MongoDB. I build responsive
-            interfaces, REST APIs, and third-party integrations that make
-            business workflows faster and more reliable.
+            Full Stack Developer with 1.5 years of software development experience, working with React.js, Node.js, Express.js, and MongoDB. I build responsive user interfaces, REST APIs, and third-party integrations to support reliable business applications.
           </p>
 
           <div
